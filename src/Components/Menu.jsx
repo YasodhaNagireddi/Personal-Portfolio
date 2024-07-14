@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 import { IoHomeOutline, IoPersonOutline, } from 'react-icons/io5';
 import { BsBag } from 'react-icons/bs';
 import { HiOutlineLightBulb } from 'react-icons/hi';
@@ -12,7 +12,7 @@ const Menu = () => {
             <div className='flex gap-4 bg-gray-600 backdrop-blur-sm bg-opacity-40 py-2 px-8 rounded-md fixed backdrop-filter bg-clip-padding bottom-10'>
 
                 <Link activeClass='bg-[#1484da] rounded-full'
-                    to='Home'
+                    to='/'
                     smooth={true}
                     spy={true}
                     offset={50}
@@ -22,7 +22,7 @@ const Menu = () => {
                 </Link>
 
                 <Link activeClass='bg-[#1484da] rounded-full'
-                    to='About'
+                    to='/about'
                     smooth={true}
                     spy={true}
                     offset={50}
@@ -32,7 +32,7 @@ const Menu = () => {
                 </Link>
 
                 <Link activeClass='bg-[#1484da] rounded-full'
-                    to='Experience'
+                    to='/experience'
                     smooth={true}
                     spy={true}
                     offset={50}
@@ -42,7 +42,7 @@ const Menu = () => {
                 </Link>
 
                 <Link activeClass='bg-[#1484da] rounded-full'
-                    to='Skills'
+                    to='/skills'
                     smooth={true}
                     spy={true}
                     offset={50}
@@ -52,7 +52,7 @@ const Menu = () => {
                 </Link>
 
                 <Link activeClass='bg-[#1484da] rounded-full'
-                    to='Projects'
+                    to='/projects'
                     smooth={true}
                     spy={true}
                     offset={50}
@@ -62,7 +62,7 @@ const Menu = () => {
                 </Link>
 
                 <Link activeClass='bg-[#1484da] rounded-full'
-                    to='Contact'
+                    to='/contact'
                     smooth={true}
                     spy={true}
                     offset={50}

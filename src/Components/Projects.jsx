@@ -5,7 +5,7 @@ import project from './data/projects.json';
 
 const Projects = () => {
     return (
-        <div id='Projects' className='py-44 lg:px-64 md:px-28 bg-gray-900'>
+        <div className='py-44 lg:px-64 md:px-28 bg-gray-900'>
 
             <h1 className='text-4xl text-bold mb-28 text-center'>Projects</h1>
 
