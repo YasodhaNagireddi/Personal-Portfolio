@@ -45,7 +45,7 @@ const Banner = () => {
 
             <div id='title' className='flex gap-2 justify-center'>
                 <a href='' className='px-[20px] py-[5px] rounded mt-6 border border-[#1484da] transition-all duration-700 ease-in-out hover:bg-[#1484da]' download='..assets/Yasodha Nagireddi Resume.pdf'>Dowload</a>
-                <button className='px-[20px] py-[5px] rounded mt-6 bg-[#1484da] transition-all duration-700 ease-in-out border-[#1484da] hover:bg-transparent'>About Me</button>
+                <Link to='/about' className='px-[20px] py-[5px] rounded mt-6 bg-[#1484da] transition-all duration-700 ease-in-out border-[#1484da] hover:bg-transparent'>About Me</Link>
             </div>
 
             <div className='text-white flex lg:flex-row flex-col lg:justify-around items-center'>
