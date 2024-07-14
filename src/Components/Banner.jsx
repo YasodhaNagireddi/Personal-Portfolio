@@ -6,6 +6,7 @@ import { useLayoutEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
 import { Link } from 'react-router-dom';
+import resume from '../assets/resume.pdf';
 
 
 
@@ -44,7 +45,7 @@ const Banner = () => {
             <p id='title'>I am a Fullstack Developer</p>
 
             <div id='title' className='flex gap-2 justify-center'>
-                <a href='..assets/Yasodha Nagireddi Resume.pdf' className='px-[20px] py-[5px] rounded mt-6 border border-[#1484da] transition-all duration-700 ease-in-out hover:bg-[#1484da]' download>Dowload</a>
+                <button className='px-[20px] py-[5px] rounded mt-6 border border-[#1484da] transition-all duration-700 ease-in-out hover:bg-[#1484da]' download><a href={resume} download='resume'>Dowload</a></button>
                 <Link to='/about' className='px-[20px] py-[5px] rounded mt-6 bg-[#1484da] transition-all duration-700 ease-in-out border-[#1484da] hover:bg-transparent'>About Me</Link>
             </div>
 
