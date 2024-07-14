@@ -44,7 +44,7 @@ const Banner = () => {
             <p id='title'>I am a Fullstack Developer</p>
 
             <div id='title' className='flex gap-2 justify-center'>
-                <a href='' className='px-[20px] py-[5px] rounded mt-6 border border-[#1484da] transition-all duration-700 ease-in-out hover:bg-[#1484da]' download='..assets/Yasodha Nagireddi Resume.pdf'>Dowload</a>
+                <a href='..assets/Yasodha Nagireddi Resume.pdf' className='px-[20px] py-[5px] rounded mt-6 border border-[#1484da] transition-all duration-700 ease-in-out hover:bg-[#1484da]' download>Dowload</a>
                 <Link to='/about' className='px-[20px] py-[5px] rounded mt-6 bg-[#1484da] transition-all duration-700 ease-in-out border-[#1484da] hover:bg-transparent'>About Me</Link>
             </div>
 
