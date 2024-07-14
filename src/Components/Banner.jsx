@@ -5,7 +5,7 @@ import Profile from '../assets/bannerImage.jpg';
 import { useLayoutEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 
 
 
@@ -74,7 +74,7 @@ const Banner = () => {
 
 
                     <Link
-                        to='Projects'
+                        to='/projects'
                         smooth={true}
                         spy={true}
                         offset={50}
