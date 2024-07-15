@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import { BallTriangle } from 'react-loader-spinner';
-import Navbar from "./Components/Navbar";
+import Header from "./Components/Header";
 import About from "./Components/About";
 import Experience from "./Components/Experience";
 import Skills from "./Components/Skills";
@@ -10,7 +10,6 @@ import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import Menu from "./Components/Menu";
 import Home from "./Components/Home";
-
 function App() {
   const [loading, setLoading] = useState(false);
 
@@ -39,7 +38,7 @@ function App() {
           </div>
           :
           <BrowserRouter>
-            <Navbar />
+            <Header />
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />

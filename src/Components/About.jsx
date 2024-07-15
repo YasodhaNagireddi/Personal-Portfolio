@@ -15,7 +15,7 @@ const About = () => {
 
                 <img className='h-[25rem] lg:w-[45%] rounded-xl mb-9' src={Profile} alt='profile' />
 
-                <div className='pt-[100px]'>
+                <div className='pt-[80px]'>
 
                     <div className='flex lg:justify-start justify-center gap-[20px] mb-[40px]'>
 

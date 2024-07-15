@@ -4,7 +4,7 @@ const Experience = () => {
 
 
     return (
-        <div className='py-44 lg:px-64 md:px-28 bg-gray-900'>
+        <div className='pb-44 pt-28 lg:px-64 md:px-28 bg-gray-900'>
             <h1 className='text-4xl text-white text-bold mb-10 text-center'>Experience</h1>
             <div className='mx-w-7xl mx-auto w-full grid grid-cols-9 px-2'>
                 <div className='col-span-4 w-full h-full' >

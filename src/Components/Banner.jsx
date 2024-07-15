@@ -51,16 +51,16 @@ const Banner = () => {
 
             <div className='text-white flex lg:flex-row flex-col lg:justify-around items-center'>
                 <div className='flex gap-2 lg:flex-col justify-center mt-10 '>
-                    <a href='https://github.com/YasodhaNagireddi' className='text-[#1484da] hover:text-[#1484da] rounded-full glow p-2'>
+                    <a href='https://github.com/YasodhaNagireddi' target='_blank' className='text-[#1484da] hover:text-[#1484da] rounded-full glow p-2'>
                         <FiGithub className='bg-gray-900 p-[6px] text-3xl rounded' />
                     </a>
-                    <a href='linkedin.com/in/yasodha-nagireddi-7691161a4' className='text-[#1484da] hover:text-[#1484da] rounded-full glow p-2'>
+                    <a href='linkedin.com/in/yasodha-nagireddi-7691161a4' target='_blank' className='text-[#1484da] hover:text-[#1484da] rounded-full glow p-2'>
                         <FaLinkedinIn className='bg-gray-900 p-[6px] text-3xl rounded' />
                     </a>
-                    <a href='#' className='text-[#1484da]  hover:text-[#1484da] rounded-full glow p-2'>
+                    <a href='#' target='_blank' className='text-[#1484da]  hover:text-[#1484da] rounded-full glow p-2'>
                         <FaFacebookF className='bg-gray-900 p-[6px] text-3xl rounded' />
                     </a>
-                    <a href='#' className='text-[#1484da] hover:text-[#1484da] rounded-full glow p-2'>
+                    <a href='#' target='_blank' className='text-[#1484da] hover:text-[#1484da] rounded-full glow p-2'>
                         <FiInstagram className='bg-gray-900 p-[6px] text-3xl rounded' />
                     </a>
 

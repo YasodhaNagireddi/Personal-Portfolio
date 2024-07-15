@@ -38,7 +38,7 @@ const Skills = () => {
 
 
     return (
-        <div ref={comp} className='py-44 md:px-40 px-[20px] text-white'>
+        <div ref={comp} className='pb-44 pt-28 md:px-40 px-[20px] text-white'>
 
             <h1 className='text-4xl text-bold mb-28 text-center'>My Skills</h1>
 
